@@ -5,7 +5,7 @@
 #### 学习内容：编程
 
 · Morse.h
-
+```c
 #ifndef Morse_h
 #define Morse_h
 
@@ -23,9 +23,9 @@ private:
 };
 
 #endif
-
+```
 · Morse.cpp
-
+```c
 #include"Arduino.h"
 #include"Morse.h"
 
@@ -57,9 +57,9 @@ void Morse::c_space(){
     digitalWrite(_pin,LOW);
     delay(250);
 }
-
+```
 · Morse.ino
-
+```c
 #include <Morse.h>
 
 Morse morse(13);
@@ -131,7 +131,7 @@ void loop() {
       delay(2);
     }
 }
-
+```
 ## 第三天
 摩斯密码：7月3日作业
 小车：7月4日课堂作业
